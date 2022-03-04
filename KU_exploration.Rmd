@@ -1,0 +1,92 @@
+---
+title: "Knowlege Units"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+ku <- read.csv("Knowledge_Units.csv")
+
+library(tm)   
+docs <- Corpus(VectorSource(ku$KU.Topics)) 
+```
+
+```{r}
+## Preprocessing 
+
+docs <- tm_map(docs, removePunctuation)   # *Removing punctuation:*    
+docs <- tm_map(docs, removeNumbers)      # *Removing numbers:*    
+docs <- tm_map(docs, tolower)   # *Converting to lowercase:*    
+docs <- tm_map(docs, removeWords, stopwords("english"))   # *Removing "stopwords" 
+library(SnowballC)   
+docs <- tm_map(docs, stemDocument)   # *Removing common word endings* (e.g., "ing", "es")   
+docs <- tm_map(docs, stripWhitespace)   # *Stripping whitespace   
+docs <- tm_map(docs, PlainTextDocument)  
+
+toSpace <- content_transformer(function (x,pattern ) gsub(pattern, " ", x))
+docs <- tm_map(docs, toSpace, "ã¢â‚¬â„¢r") # *Remove weird symbols*
+docs <- tm_map(docs, toSpace, "ã¢â‚¬å") # *Remove weird symbols*
+docs <- tm_map(docs, toSpace, "ã¢â‚¬â€\u009d") # *Remove weird symbols*
+docs <- tm_map(docs, toSpace, "ã¢â‚¬â\u009d") # *Remove weird symbols*
+docs <- tm_map(docs, toSpace, "ã›â\u009d") # *Remove weird symbols*
+
+## *This is the end of the preprocessing stage.*
+```
+
+```{r}
+dtm <- DocumentTermMatrix(docs)   
+tdm <- TermDocumentMatrix
+
+### Explore your data      
+freq <- colSums(as.matrix(dtm))   
+length(freq)   
+ord <- order(freq)   
+m <- as.matrix(dtm)   
+dim(m)  
+
+write.csv(m, file="DocumentTermMatrix.csv")
+```
+
+```{r}
+### FOCUS - on just the interesting stuff...   
+#  Start by removing sparse terms:   
+dtms <- removeSparseTerms(dtm, 0.98) # This makes a matrix that is 2% empty space, maximum.   
+
+### Word Frequency   
+head(table(freq), 20)   
+# The above output is two rows of numbers. The top number is the frequency with which 
+# words appear and the bottom number reflects how many words appear that frequently. 
+#
+tail(table(freq), 20)   
+# Considering only the 20 greatest frequencies
+#
+# **View a table of the terms after removing sparse terms, as above.
+freq <- colSums(as.matrix(dtms))   
+freq   
+# The above matrix was created using a data transformation made earlier. 
+
+# **An alternate view of term frequency:**   
+# This will identify all terms that appear frequently (in this case, 3 or more times).   
+findFreqTerms(dtm, lowfreq=3) 
+```
+
+```{r}
+library(ggplot2)   
+wf <- data.frame(word=names(freq), freq=freq)   
+p <- ggplot(subset(wf, freq>7), aes(word, freq))    
+p <- p + geom_bar(stat="identity")   
+p <- p + theme(axis.text.x=element_text(angle=45, hjust=1))   
+p
+```
+
+```{r}
+library(wordcloud)   
+dtms <- removeSparseTerms(dtm, 0.98) # Prepare the data   
+freq <- colSums(as.matrix(dtm)) # Find word frequencies   
+dark2 <- brewer.pal(6, "Dark2")   
+wordcloud(names(freq), freq, max.words=125, rot.per=0.2, colors=dark2)
+```
+

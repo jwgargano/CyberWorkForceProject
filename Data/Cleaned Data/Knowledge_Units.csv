@@ -1,0 +1,586 @@
+Id,Code,Knowledge Unit,KU Category,KU Topics
+1,AAL,Advanced Algorithms,Optional KU,Bloom filters
+1,AAL,Advanced Algorithms,Optional KU,Naive Bayes
+1,AAL,Advanced Algorithms,Optional KU,Map-Reduce
+1,AAL,Advanced Algorithms,Optional KU,Dynamic Programming algorithms
+1,AAL,Advanced Algorithms,Optional KU,Markov Chain Monte Carlo
+1,AAL,Advanced Algorithms,Optional KU,Coding and Compression
+1,AAL,Advanced Algorithms,Optional KU,Artificial Intelligence algorithms
+2,ACR,Advanced Cryptography,Optional KU,Key Management
+2,ACR,Advanced Cryptography,Optional KU,Number Theory
+2,ACR,Advanced Cryptography,Optional KU,Probability and Statistics
+2,ACR,Advanced Cryptography,Optional KU,"Understanding of the major algorithms (AES, RSA, EC)"
+2,ACR,Advanced Cryptography,Optional KU,Suite B Algorithms
+2,ACR,Advanced Cryptography,Optional KU,"Understanding of the families of attacks (differential, man-in-the-middle, linear, etc.)"
+2,ACR,Advanced Cryptography,Optional KU,Hashing and Signatures
+2,ACR,Advanced Cryptography,Optional KU,Key Management
+2,ACR,Advanced Cryptography,Optional KU,Modes and appropriate uses
+2,ACR,Advanced Cryptography,Optional KU,Classical Cryptanalysis (a la Konheim)
+2,ACR,Advanced Cryptography,Optional KU,Identity-based Cryptography
+2,ACR,Advanced Cryptography,Optional KU,Digital Signatures
+2,ACR,Advanced Cryptography,Optional KU,Virtual Private Networks
+2,ACR,Advanced Cryptography,Optional KU,Quantum Key Cryptography
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Advanced Routing algorithms and protocols a. BGP b. OSPF c. MPLS
+3,ANT,Advanced Network Technology and Protocols,Optional KU,"Software Defined Networking a. Principles, protocols, implications"
+3,ANT,Advanced Network Technology and Protocols,Optional KU,IPv6 Networking Suite a. IPv6 Security Issues
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Quality of Service
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Social Network implementation and security issues.
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Voice over IP (VoIP)
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Multicasting
+3,ANT,Advanced Network Technology and Protocols,Optional KU,Advanced Network Security Topics a. Secure DNS b. Network Address Translation c. Deep Packet Inspection d. Transport Layer Security
+4,ALG,Algorithms,Optional KU,Algorithm Analysis
+4,ALG,Algorithms,Optional KU,Computational Complexity
+4,ALG,Algorithms,Optional KU,Best/Worst/Average Case Behavior
+4,ALG,Algorithms,Optional KU,Optimization
+4,ALG,Algorithms,Optional KU,Searching / Sorting
+4,ALG,Algorithms,Optional KU,String matching algorithms
+4,ALG,Algorithms,Optional KU,Iterative
+4,ALG,Algorithms,Optional KU,Recursion
+4,ALG,Algorithms,Optional KU,Greedy Algorithm
+4,ALG,Algorithms,Optional KU,Hill Climbing
+5,ATC,Analog Telecommunications,Optional KU,Signaling Methods
+5,ATC,Analog Telecommunications,Optional KU,Architecture
+5,ATC,Analog Telecommunications,Optional KU,"Trunks, Switching"
+5,ATC,Analog Telecommunications,Optional KU,Grade of Service
+5,ATC,Analog Telecommunications,Optional KU,Blocking
+5,ATC,Analog Telecommunications,Optional KU,Call Arrival Models
+5,ATC,Analog Telecommunications,Optional KU,Interference Issues
+6,BCO,Basic Cyber Operations,Optional KU,Legal Authorities and Ethics
+6,BCO,Basic Cyber Operations,Optional KU,Stages of a Cyber Operation (and details of each phase) a. Target Identification b. Reconnaissance c. Gaining Access d. Hiding Presence e. Establishing Persistence f. Execution g. Assessment
+6,BCO,Basic Cyber Operations,Optional KU,Basic Process Modeling
+6,BCO,Basic Cyber Operations,Optional KU,Validating Procedures
+6,BCO,Basic Cyber Operations,Optional KU,Handling failures to follow procedures
+6,BCO,Basic Cyber Operations,Optional KU,Case studies of actual cyber operations
+7,CCO,Cloud Computing,Optional KU,Virtualization platforms
+7,CCO,Cloud Computing,Optional KU,"Cloud Services a. SaaS, PaaS, DaaS, IaaS"
+7,CCO,Cloud Computing,Optional KU,Service Oriented Architectures
+7,CCO,Cloud Computing,Optional KU,"Deployment Models a. private, public, community, hybrid"
+7,CCO,Cloud Computing,Optional KU,Security
+7,CCO,Cloud Computing,Optional KU,Storage
+7,CCO,Cloud Computing,Optional KU,Legal/Privacy Issues
+8,CCR,Cyber Crime,Optional KU,Cyber Crime Types a. Intrusions b. Ransomware c. Espionage d. Intellectual Property e. Fraud and Financial
+8,CCR,Cyber Crime,Optional KU,Cyber Stalking and Predators
+8,CCR,Cyber Crime,Optional KU,Cyber Bullying
+8,CCR,Cyber Crime,Optional KU,Sexual Exploitation
+8,CCR,Cyber Crime,Optional KU,Identity Theft
+8,CCR,Cyber Crime,Optional KU,Cyber Assisted Crimes
+8,CCR,Cyber Crime,Optional KU,Cyber Terrorism
+8,CCR,Cyber Crime,Optional KU,Cyber Crime Laws a. US Federal Laws b. International Laws c. Treaties
+9,CSE,Cybersecurity Ethics,Optional KU,Ethical Codes and Frameworks
+9,CSE,Cybersecurity Ethics,Optional KU,Ethics and Cyberspace
+9,CSE,Cybersecurity Ethics,Optional KU,"Ethical Issues a. Property b. Availability c. Rights of others d. Respect and principles of community e. Resource use, allocation, and abuse f. Censorship"
+9,CSE,Cybersecurity Ethics,Optional KU,Ethics-based decision tools
+9,CSE,Cybersecurity Ethics,Optional KU,Cybersecurity and social responsibility
+10,DBA,Data Administration,Optional KU,Data/Information lifecycle a. Capture/Acquisition b. Maintenance c. Synthesis/transformation/aggregation d. Usage e. Publication/Distribution f. Archival g. Disposition/Purging
+10,DBA,Data Administration,Optional KU,"Data/Information Quality a. Accuracy, Completeness, relevance, consistency, integrity b. Data cleansing c. Verification/Validation"
+10,DBA,Data Administration,Optional KU,Data/Information accessibility
+10,DBA,Data Administration,Optional KU,Data/Information utility
+10,DBA,Data Administration,Optional KU,Data storage and archiving a. Data Warehousing b. Long Term Archival c. Big Data i. Hadoop / Mongo DB / HBASE
+10,DBA,Data Administration,Optional KU,Data/Information control a. Ownership - Who information belongs to. b. Stewardship - Responsibility for assembling and protecting data. c. Management - Providing the right data in the right place at the right time. d. Possession - Data residing in a system. e. Governance - How data should be managed and used.
+10,DBA,Data Administration,Optional KU,Data Policies a. Internal b. External
+10,DBA,Data Administration,Optional KU,"Data/Information Security (access control, encryption)"
+10,DBA,Data Administration,Optional KU,Data/Information classification systems. a. Level of classification b. Classification criteria c. Need to know. d. Classification/Declassification processes e. Classification authorities
+11,DST,Data Structures,Optional KU,Numerical
+11,DST,Data Structures,Optional KU,Strings
+11,DST,Data Structures,Optional KU,"Lists (Linked List, Double Linked List, other list types, hash tables)"
+11,DST,Data Structures,Optional KU,Arrays
+11,DST,Data Structures,Optional KU,Vectors
+11,DST,Data Structures,Optional KU,Heaps
+11,DST,Data Structures,Optional KU,Queues
+11,DST,Data Structures,Optional KU,Stacks
+11,DST,Data Structures,Optional KU,Buffers
+11,DST,Data Structures,Optional KU,Trees
+11,DST,Data Structures,Optional KU,Objects
+11,DST,Data Structures,Optional KU,Data Formats in languages
+11,DST,Data Structures,Optional KU,Categories 
+12,DMS,Database Management Systems,Optional KU,SQL Data Manipulation Language a. SELECT b. INSERT c. DELETE d. UPDATE
+12,DMS,Database Management Systems,Optional KU,SQL Data Definition Language
+12,DMS,Database Management Systems,Optional KU,"SQL Database Administration a. User creation/deletion, permissions and access controls"
+12,DMS,Database Management Systems,Optional KU,"Database Security a. How to protect data (confidentiality, integrity and availability in a DBMS context) b. Vulnerabilities (e.g., SQL injection)+A99"
+12,DMS,Database Management Systems,Optional KU,Overview of database types with advantages and disadvantages a. Flat b. Relational c. Network d. Hierarchical e. Object-Oriented f. Object-based g. Key-value h. Distributed
+12,DMS,Database Management Systems,Optional KU,"Database concepts a. Indexing, Inference, Aggregation, Polyinstantiation"
+13,DAT,Databases,Optional KU,"Outline different types and structures of modern database management systems and their application a. Relational Databases b. Hierarchical c. No SQL Databases d. Object-Based e. Object-Oriented f. Distributed (Hadoop, Mongo, etc.)"
+13,DAT,Databases,Optional KU,"Overview of database security models and concerns, such as: a. Inference b. Aggregation c. Injection d. Hashing and encryption e. Data corruption f. Unauthorized access g. Database access controls (DAC, MAC, RBAC, Clark-Wilson"
+14,DVF,Device Forensics,Optional KU,"Mobile Device Analysis (e.g. smart phones, tablets)"
+14,DVF,Device Forensics,Optional KU,"Embedded Systems (e.g. GPS, games consoles, Smart TVs)"
+14,DVF,Device Forensics,Optional KU,Internet of Things Devices (e.g. consideration of potential for evidence storage)
+14,DVF,Device Forensics,Optional KU,Must include hands-on activities using devices mentioned above
+15,DCO,Digital Communications,Optional KU,Components of a digital communications system
+15,DCO,Digital Communications,Optional KU,Coding schemes
+15,DCO,Digital Communications,Optional KU,Digital Signaling
+15,DCO,Digital Communications,Optional KU,Spread Spectrum Signals
+15,DCO,Digital Communications,Optional KU,"Multi-User Communication Access Techniques a. CDMA, TDMA, FDMA, SDMA, PDMA"
+16,DFS,Digital Forensics,Optional KU,Legal Compliance a. Applicable Laws b. Affidavits c. How to Testify d. Case Law e. Chain of custody
+16,DFS,Digital Forensics,Optional KU,Digital Investigations a. E-Discovery b. Authentication of Evidence c. Chain of Custody Procedures d. Metadata e. Root Cause Analysis f. Using Virtual Machines for Analysis
+17,EBS,Embedded Systems,Optional KU,Microcontroller/embedded processor architectures
+17,EBS,Embedded Systems,Optional KU,"PLC's, Gate Arrays, and other common embedded devices"
+17,EBS,Embedded Systems,Optional KU,"I/O, A/D, registers, and embedded hardware capabilities"
+17,EBS,Embedded Systems,Optional KU,Embedded devices communications
+17,EBS,Embedded Systems,Optional KU,Interrupt handling and timing issues
+17,EBS,Embedded Systems,Optional KU,Resource management in real time systems
+17,EBS,Embedded Systems,Optional KU,Devices without operating systems
+17,EBS,Embedded Systems,Optional KU,Real-time Operating Systems
+17,EBS,Embedded Systems,Optional KU,Security issues imposed by limited resources
+17,EBS,Embedded Systems,Optional KU,Programming languages and environments for embedded systems a. Tool chains b. Target operating systems and devices c. Cross compilers
+18,FAC,Forensic Accounting,Optional KU,Investigative Accounting
+18,FAC,Forensic Accounting,Optional KU,Fraudulent Financial Reporting
+18,FAC,Forensic Accounting,Optional KU,Misappropriation of Assets
+18,FAC,Forensic Accounting,Optional KU,Indirect Methods of Reconstructing Income
+18,FAC,Forensic Accounting,Optional KU,Money Laundering
+18,FAC,Forensic Accounting,Optional KU,Transnational financial flows
+18,FAC,Forensic Accounting,Optional KU,Litigation services
+18,FAC,Forensic Accounting,Optional KU,Evidence Management
+18,FAC,Forensic Accounting,Optional KU,Economic Damages and Business Valuations
+19,FMD,Formal Methods,Optional KU,Concept of Formal Methods
+19,FMD,Formal Methods,Optional KU,Mathematical Logic
+19,FMD,Formal Methods,Optional KU,Applications a. Role in system design b. Role in software engineering
+19,FMD,Formal Methods,Optional KU,Limitations
+19,FMD,Formal Methods,Optional KU,Bell-LaPadula (as an example formal model)
+19,FMD,Formal Methods,Optional KU,Automated Reasoning Tools
+19,FMD,Formal Methods,Optional KU,System Modeling and Specification
+19,FMD,Formal Methods,Optional KU,Proofs and #
+20,FPM,Fraud Prevention and Management,Optional KU,Symptom Recognition
+20,FPM,Fraud Prevention and Management,Optional KU,Data Driven Detection
+20,FPM,Fraud Prevention and Management,Optional KU,Investigation of Theft
+20,FPM,Fraud Prevention and Management,Optional KU,Concealment
+20,FPM,Fraud Prevention and Management,Optional KU,Conversion Methods
+20,FPM,Fraud Prevention and Management,Optional KU,Inquiry and Reporting
+20,FPM,Fraud Prevention and Management,Optional KU,"Financial, Revenue and Inventory"
+20,FPM,Fraud Prevention and Management,Optional KU,Liability and inadequate disclosure
+20,FPM,Fraud Prevention and Management,Optional KU,Consumer fraud
+21,HRE,Hardware Reverse Engineering,Optional KU,Principles of Reverse Engineering
+21,HRE,Hardware Reverse Engineering,Optional KU,"Stimulus, Data Collection, Data Analysis"
+21,HRE,Hardware Reverse Engineering,Optional KU,Specification development
+21,HRE,Hardware Reverse Engineering,Optional KU,Capability Enhancement / Modification Techniques
+21,HRE,Hardware Reverse Engineering,Optional KU,Detecting Modification
+21,HRE,Hardware Reverse Engineering,Optional KU,Stimulation Methods / Instrumentation (probing and measurement)
+21,HRE,Hardware Reverse Engineering,Optional KU,JTAG IEEE 1149.1
+21,HRE,Hardware Reverse Engineering,Optional KU,Defining and Enumerating Interfaces
+21,HRE,Hardware Reverse Engineering,Optional KU,Functional Decomposition
+22,HFS,Hardware/Firmware Security,Optional KU,"Physical Vulnerabilities. a. Unused, unsecured communications channels b. Test pads and test paths c. Back doors, trojans, and hidden circuits d. Doping and Induced Faults e. Reverse Engineering f. Unauthorized memory access"
+22,HFS,Hardware/Firmware Security,Optional KU,"Hardware side channel attacks a. Timing b. Power Analysis c. Electromagnetic d. RF analysis e. Hardware insertion (smartcards, USB, bus devices) f. Access through out-of-band management channels"
+22,HFS,Hardware/Firmware Security,Optional KU,"Sourcing attacks a. Pirated, Fake, and Counterfeit Parts b. Supply chain disruption"
+22,HFS,Hardware/Firmware Security,Optional KU,Equipment Destruction Attacks
+22,HFS,Hardware/Firmware Security,Optional KU,"Hardware Security Components a. Verifiable device IDs b. Random Number Generators c. Boot ROM Digital Signatures d. Hardware-base encryption modules e. Security Co-processors/Controllers f. Encryption accelerators (SSL, etc.)"
+22,HFS,Hardware/Firmware Security,Optional KU,Physical Security Attributes a. Device validation b. Open and Accepted security algorithms c. Strong Random Number Generation d. Secure time source e. Standardized developer interface f. Clear documentation g. Key backup/Protection h. Tamper-resistance i. Scalability
+22,HFS,Hardware/Firmware Security,Optional KU,Bootloader vulnerabilities a. Boot sector attacks b. Single User Mode c. Boot to non-secure OS's d. Boot loader reconfiguration
+22,HFS,Hardware/Firmware Security,Optional KU,Microcode vulnerabilities
+22,HFS,Hardware/Firmware Security,Optional KU,Firmware vulnerabilities a. Reflashing BIOS/PROMs
+22,HFS,Hardware/Firmware Security,Optional KU,Security role of intermediate layers a. Hardware Abstraction Layer b. Virtualization Layers
+23,HOF,Host Forensics,Optional KU,1. File Systems and File System Forensics
+23,HOF,Host Forensics,Optional KU,Hypervisor Analysis
+23,HOF,Host Forensics,Optional KU,Cryptanalysis
+23,HOF,Host Forensics,Optional KU,Rainbow Tables
+23,HOF,Host Forensics,Optional KU,Known File Filters (KFF)
+23,HOF,Host Forensics,Optional KU,Steganography
+23,HOF,Host Forensics,Optional KU,File Carving
+23,HOF,Host Forensics,Optional KU,Live System Investigations
+23,HOF,Host Forensics,Optional KU,Timeline Analysis
+23,HOF,Host Forensics,Optional KU,Include samples of hands-on activities
+23,HOF,Host Forensics,Optional KU,"Examples of acceptable operating system specific Topics may include: 1. Registry Analysis, NTFS (Microsoft Windows) 2. Preference List Analysis, HFS+/AFS (Apple MacOS) 3. System configuration Analysis, EXT2/3/4 (Linux, e.g. /etc)"
+24,IAA,IA Architectures,Optional KU,Defense in Depth
+24,IAA,IA Architectures,Optional KU,DMZs
+24,IAA,IA Architectures,Optional KU,Proxy Servers
+24,IAA,IA Architectures,Optional KU,Composition and Security
+24,IAA,IA Architectures,Optional KU,Cascading
+24,IAA,IA Architectures,Optional KU,Emergent Properties
+24,IAA,IA Architectures,Optional KU,Dependencies
+24,IAA,IA Architectures,Optional KU,TCB Subsets
+24,IAA,IA Architectures,Optional KU,Enterprise Architectures / Security Architectures
+24,IAA,IA Architectures,Optional KU,Secure network design
+25,IAC,IA Compliance,Optional KU,"Audit Purposes a. Compliance to specified requirements, specifications, policy, standards or laws b. Regulatory compliance c. Assessment of internal controls"
+25,IAC,IA Compliance,Optional KU,"Audit process a. Audit Charter b. Audit Baseline c. Audit Activities d. Audit Reporting, i. Results(Findings) ii. Recommendations e. Response i. Mitigation Strategy"
+25,IAC,IA Compliance,Optional KU,Compliance Monitoring a. Compliance levels
+25,IAC,IA Compliance,Optional KU,Relationship between compliance and audit
+25,IAC,IA Compliance,Optional KU,Audit Types a. Internal b. External
+25,IAC,IA Compliance,Optional KU,Compliance Training
+26,IAS,IA Standards,Optional KU,Laws a. HIPAA b. FERPA c. Sarbanes-Oxley d. FISMA e. Data breach disclosure laws
+26,IAS,IA Standards,Optional KU,Open Standards a. OWASP
+26,IAS,IA Standards,Optional KU,Regulations
+26,IAS,IA Standards,Optional KU,NIST 800-53 a. FDA 21 CFR part 820/806 b. Rainbow Series
+26,IAS,IA Standards,Optional KU,Commercial Standards a. PCI/DSS
+27,IDR,Independent/Directed Study/Research,Optional KU,"Courses focused on emerging technologies and their security relevant issues or new Tools, Techniques and Methods related to IA/Cyber Defense (this “wild-card” Knowledge Unit allows any school to submit an IA/Cyber Defense course for credit towards satisfying the academic requirements to be designated as a CAE. Only one course may be mapped for credit. It will be up to the on-site review process to validate if the course is worthy of credit.)"
+28,ICS,Industrial Control Systems,Optional KU,SCADA Firewalls
+28,ICS,Industrial Control Systems,Optional KU,Hardware Components
+28,ICS,Industrial Control Systems,Optional KU,Programmable Logic Controllers (PLCs)
+28,ICS,Industrial Control Systems,Optional KU,"Protocols (MODBUS, PROFINET, DNP3, OPC, ICCP, SERIAL)"
+28,ICS,Industrial Control Systems,Optional KU,"Networking (RS232/485, ZIGBEE, 900MHz, BlueTooth, X.25)"
+28,ICS,Industrial Control Systems,Optional KU,"Types of ICSs (e.g., power distribution systems, manufacturing)"
+28,ICS,Industrial Control Systems,Optional KU,Models of ICS systems (time driven vs. event driven)
+28,ICS,Industrial Control Systems,Optional KU,Common Vulnerabilities in Critical Infrastructure Systems
+28,ICS,Industrial Control Systems,Optional KU,Ladder Logic
+29,ITC,Introduction to Theory of Computation,Optional KU,Automata
+29,ITC,Introduction to Theory of Computation,Optional KU,Turing machines
+29,ITC,Introduction to Theory of Computation,Optional KU,Deterministic and non-deterministic finite automata
+29,ITC,Introduction to Theory of Computation,Optional KU,Formal language theory
+29,ITC,Introduction to Theory of Computation,Optional KU,Computability and non-computability
+29,ITC,Introduction to Theory of Computation,Optional KU,Turing computability
+29,ITC,Introduction to Theory of Computation,Optional KU,Analysis of Algorithms
+29,ITC,Introduction to Theory of Computation,Optional KU,Complexity measures a. time and storage b. communications c. numbers of processors
+29,ITC,Introduction to Theory of Computation,Optional KU,Big O notation
+29,ITC,Introduction to Theory of Computation,Optional KU,"Best, worst, and average complexity"
+29,ITC,Introduction to Theory of Computation,Optional KU,Upper and lower bounds on complexity
+29,ITC,Introduction to Theory of Computation,Optional KU,Classes of Complexity a. P and NP b. Intractability
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Deep Packet Inspection
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Log File Analysis
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Log Aggregation
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Cross Log Comparison and Analysis
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,"Anomaly Detection a. Establishing profiles b. Anomaly algorithms, such as: i. Statistical Techniques ii. Correlation Techniques iii. Fuzzy Logic Approaches iv. Artificial Intelligence v. Filtering Algorithms vi. Neural Networks"
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Misuse Detection (Signature Detection)
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Specification-based Detection
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Host-based Intrusion Detection and Prevention
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Network-based Intrusion Detection and Prevention a. Stealth mode
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Distributed Intrusion Detection
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Hierarchical IDS's
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Honeynets/Honeypots
+30,IDS,Intrusion Detection/Prevention Systems,Optional KU,Intrusion response a. Device Reconfiguration b. Notifications i. Logging ii. SNMP Trap iii. Email iv. Visual/Audio Alert c. Trace Recording d. Opening Application e. Session Interruption f. Reach back
+31,LCS,Life-Cycle Security,Optional KU,System Life-Cycle Phases and Issues a. Initiation b. Requirements c. Design d. Development e. Testing f. Deployment g. Operations and Maintenance h. Disposal
+31,LCS,Life-Cycle Security,Optional KU,"Vulnerability Mapping, Management, and Tractability"
+31,LCS,Life-Cycle Security,Optional KU,Threat modeling
+31,LCS,Life-Cycle Security,Optional KU,Software Assurance Maturity Model
+31,LCS,Life-Cycle Security,Optional KU,Role of Project/Program Management
+31,LCS,Life-Cycle Security,Optional KU,Role of Process Management
+31,LCS,Life-Cycle Security,Optional KU,Importance of Culture and Training
+31,LCS,Life-Cycle Security,Optional KU,Development Processes and Paradigms
+31,LCS,Life-Cycle Security,Optional KU,Configuration Management
+31,LCS,Life-Cycle Security,Optional KU,Developmental Threats
+33,LLP,Low Level Programming,Optional KU,"Learn and apply a higher order language which allows low level access, such as C."
+33,LLP,Low Level Programming,Optional KU,Learn and program in Assembly
+33,LLP,Low Level Programming,Optional KU,Make appropriate and secure use of library functions
+33,LLP,Low Level Programming,Optional KU,Correctly use pointers and pointer manipulation
+33,LLP,Low Level Programming,Optional KU,Apply modularization in low level programs
+33,LLP,Low Level Programming,Optional KU,Practice defensive programming techniques
+33,LLP,Low Level Programming,Optional KU,"Compile, assemble, and link object files to create working programs."
+33,LLP,Low Level Programming,Optional KU,Outline how calls are made in assembly
+34,MEF,Media Forensics,Optional KU,Drive Acquisition
+34,MEF,Media Forensics,Optional KU,Authentication of Evidence a. Verification and Validation b. Hashes
+34,MEF,Media Forensics,Optional KU,Metadata
+34,MEF,Media Forensics,Optional KU,Live vs. Static Acquisition
+34,MEF,Media Forensics,Optional KU,Sparse vs. Full Imaging
+34,MEF,Media Forensics,Optional KU,Slack Space
+34,MEF,Media Forensics,Optional KU,Hidden Files/clusters/partitions
+34,MEF,Media Forensics,Optional KU,(must include hands-on activities)
+35,MOT,Mobile Technologies,Optional KU,2G -> 3G -> 4G / LTE -> 5G a. Standards Heritage b. Core Architecture Evolution
+35,MOT,Mobile Technologies,Optional KU,Design Choices
+35,MOT,Mobile Technologies,Optional KU,Encryption
+35,MOT,Mobile Technologies,Optional KU,Mobile Use of SS7
+35,MOT,Mobile Technologies,Optional KU,RRC Signaling
+35,MOT,Mobile Technologies,Optional KU,Billing/Charging
+35,MOT,Mobile Technologies,Optional KU,Mobile Security
+36,NWF,Network Forensics,Optional KU,Intrusion Detection and Prevention
+36,NWF,Network Forensics,Optional KU,"Packet Capture and Analysis (Wifi, LAN)"
+36,NWF,Network Forensics,Optional KU,Interlacing of device and network forensics
+36,NWF,Network Forensics,Optional KU,Log-file Analysis
+36,NWF,Network Forensics,Optional KU,Forensic Imaging and Analysis
+37,NSA,Network Security Administration,Optional KU,Incident response processes and management.
+37,NSA,Network Security Administration,Optional KU,"Issue evaluation, response, and management."
+37,NSA,Network Security Administration,Optional KU,Coverage of mapping of business objectives to technology objectives and solutions.
+37,NSA,Network Security Administration,Optional KU,Experience with a variety of network and systems monitoring tools.
+37,NSA,Network Security Administration,Optional KU,Maintenance windows and management.
+37,NSA,Network Security Administration,Optional KU,Applying network security policies.
+37,NSA,Network Security Administration,Optional KU,Incident identification.
+37,NSA,Network Security Administration,Optional KU,Deployment/upgrade processes.
+37,NSA,Network Security Administration,Optional KU,Broad coverage of different security solutions and product categories and features.
+37,NSA,Network Security Administration,Optional KU,Discussion of information security issues and conflicts between potential solutions.
+37,NSA,Network Security Administration,Optional KU,User acceptance testing.
+37,NSA,Network Security Administration,Optional KU,Outline of cyber security best practices.
+37,NSA,Network Security Administration,Optional KU,"Describe and explain risk posture, risk appetite."
+37,NSA,Network Security Administration,Optional KU,Blackout plans.
+38,NTP,Network Technology and Protocols,Optional KU,Network Switching (Ethernet) a. ARP and RARP b. Layer 2 security issues
+38,NTP,Network Technology and Protocols,Optional KU,IPv4 suite a. IPv4 Addressing
+38,NTP,Network Technology and Protocols,Optional KU,IPv6 suite a. IPv6 Addressing
+38,NTP,Network Technology and Protocols,Optional KU,Routing in IPv4 and v6. a. Routing tables and metrics b. Layer 3 security issues c. IPsec
+38,NTP,Network Technology and Protocols,Optional KU,Network naming a. DNS b. NetBIOS
+38,NTP,Network Technology and Protocols,Optional KU,Network Analysis/Troubleshooting a. Netflow
+71,OSA,Operating Systems Administration,Optional KU,OS Installation
+71,OSA,Operating Systems Administration,Optional KU,"User accounts management (Access controls, Password Policies, Authentications Methods, Group Policies)"
+71,OSA,Operating Systems Administration,Optional KU,Command Line Interfaces
+71,OSA,Operating Systems Administration,Optional KU,Configuration Management
+71,OSA,Operating Systems Administration,Optional KU,Updates and patches
+71,OSA,Operating Systems Administration,Optional KU,Event Logging and Auditing (for performance and security)
+71,OSA,Operating Systems Administration,Optional KU,Managing System Services
+71,OSA,Operating Systems Administration,Optional KU,Virtualization
+71,OSA,Operating Systems Administration,Optional KU,Backup and Restoring Data
+71,OSA,Operating Systems Administration,Optional KU,File System Security
+71,OSA,Operating Systems Administration,Optional KU,Network Configuration (port security)
+71,OSA,Operating Systems Administration,Optional KU,Host (Workstation/Server) Intrusion Detection
+71,OSA,Operating Systems Administration,Optional KU,Security Policy Development
+39,OSH,Operating Systems Hardening,Optional KU,Secure Installation
+39,OSH,Operating Systems Hardening,Optional KU,Removing unnecessary components
+39,OSH,Operating Systems Hardening,Optional KU,File system maintenance (isolation of sensitive data)
+39,OSH,Operating Systems Hardening,Optional KU,User restrictions (access and authorizations)
+39,OSH,Operating Systems Hardening,Optional KU,User/Group/File Management
+39,OSH,Operating Systems Hardening,Optional KU,Password Standards and Requirements
+39,OSH,Operating Systems Hardening,Optional KU,Shutting Down Unnecessary/Unneeded Services
+39,OSH,Operating Systems Hardening,Optional KU,Closing Unnecessary/Unneeded Ports
+39,OSH,Operating Systems Hardening,Optional KU,Patch Management/Software Updates
+39,OSH,Operating Systems Hardening,Optional KU,Virtualization
+39,OSH,Operating Systems Hardening,Optional KU,Vulnerability Scanning
+40,OST,Operating Systems Theory,Optional KU,Privilege States
+40,OST,Operating Systems Theory,Optional KU,"Processes & Threads, Process/Thread Management"
+40,OST,Operating Systems Theory,Optional KU,"Memory Management, Virtual Memory"
+40,OST,Operating Systems Theory,Optional KU,Inter-process Communications
+40,OST,Operating Systems Theory,Optional KU,"Concurrency and Synchronization, Deadlocks"
+40,OST,Operating Systems Theory,Optional KU,File Systems
+40,OST,Operating Systems Theory,Optional KU,Input / Output
+40,OST,Operating Systems Theory,Optional KU,Real-time operating systems/security issues
+40,OST,Operating Systems Theory,Optional KU,Distributed OS architectures & security issues
+40,OST,Operating Systems Theory,Optional KU,Race Conditions
+40,OST,Operating Systems Theory,Optional KU,Buffer Overflows
+40,OST,Operating Systems Theory,Optional KU,Virtualization
+40,OST,Operating Systems Theory,Optional KU,Clear Interface Semantics
+41,PTT,Penetration Testing,Optional KU,Flaw Hypothesis Methodology
+41,PTT,Penetration Testing,Optional KU,"Other methodologies (e.g., OSSTMM)"
+41,PTT,Penetration Testing,Optional KU,Identifying flaws from documentation
+41,PTT,Penetration Testing,Optional KU,Identifying flaws from source code analysis
+41,PTT,Penetration Testing,Optional KU,Vulnerability Scanning
+41,PTT,Penetration Testing,Optional KU,Understanding families of attacks
+41,PTT,Penetration Testing,Optional KU,Understanding flaws that lead to vulnerabilities
+41,PTT,Penetration Testing,Optional KU,"Enumeration, foot printing"
+41,PTT,Penetration Testing,Optional KU,Attack Surface Discovery
+41,PTT,Penetration Testing,Optional KU,Attack Vectors
+42,PRI,Privacy,Optional KU,Personally Identifiable Information
+42,PRI,Privacy,Optional KU,"Privacy Policies, Laws and Regulations"
+42,PRI,Privacy,Optional KU,Fair Information Practice Principles (FIPPs) a. Transparency b. Individual Participation c. Purpose Specification d. Data Minimization e. Use Limitation f. Data Quality and Integrity g. Security h. Accountability and Auditing
+42,PRI,Privacy,Optional KU,Anonymity and Pseudonymity
+42,PRI,Privacy,Optional KU,Risks to Privacy
+42,PRI,Privacy,Optional KU,Privacy tools a. Encryption b. VPNs c. Scramblers
+42,PRI,Privacy,Optional KU,Privacy Impact Assessments
+42,PRI,Privacy,Optional KU,Privacy Laws and legal basis
+42,PRI,Privacy,Optional KU,Tracking and Surveillance
+43,QAT,QA/Functional Testing,Optional KU,"Testing methodologies (white, grey, black box testing)"
+43,QAT,QA/Functional Testing,Optional KU,Test coverage analysis
+43,QAT,QA/Functional Testing,Optional KU,Automatic and manual generation of test inputs
+43,QAT,QA/Functional Testing,Optional KU,Test execution
+43,QAT,QA/Functional Testing,Optional KU,Validation of results
+44,RFP,Radio Frequency Principles,Optional KU,Limiting Access in RF
+44,RFP,Radio Frequency Principles,Optional KU,Basics of electromagnetic radiation
+44,RFP,Radio Frequency Principles,Optional KU,Antennas
+44,RFP,Radio Frequency Principles,Optional KU,Information Modulation
+44,RFP,Radio Frequency Principles,Optional KU,Digital Modulation
+44,RFP,Radio Frequency Principles,Optional KU,Spectral representation
+44,RFP,Radio Frequency Principles,Optional KU,Bandwidth
+44,RFP,Radio Frequency Principles,Optional KU,Eb/No vs. S/N
+44,RFP,Radio Frequency Principles,Optional KU,Propagation Principles
+45,SPP,Secure Programming Practices,Optional KU,"Programming Flaws a. Buffer Overflows, Integer Errors"
+45,SPP,Secure Programming Practices,Optional KU,Interpretation and realization of Security Requirements
+45,SPP,Secure Programming Practices,Optional KU,Principles of Secure Programming
+45,SPP,Secure Programming Practices,Optional KU,Robust Programming
+45,SPP,Secure Programming Practices,Optional KU,Defensive Programming
+45,SPP,Secure Programming Practices,Optional KU,Data Obfuscation
+45,SPP,Secure Programming Practices,Optional KU,Data Protection
+45,SPP,Secure Programming Practices,Optional KU,Secure Programming paradigms a. Pair programming b. Code reviews c. Test-driven development
+45,SPP,Secure Programming Practices,Optional KU,Static Analysis
+45,SPP,Secure Programming Practices,Optional KU,"Defensive Programming a. Input Validation, Type checking b. Cover all cases - use defaults to handle cases not explicitly covered c. Catch and handle exceptions at the lowest level possible d. Avoidance of risky coding constructs e. Avoid information leakage through error messages f. Apply security practices to classes i. Don’t allow external interfaces data changes by reference ii. Use context to determine data access iii. Support data updates verification iv. Authenticate"
+46,SAS,Software Assurance,Optional KU,Apply modeling techniques and vulnerability mapping to evaluate potential security issues.
+46,SAS,Software Assurance,Optional KU,Compare and contrast the security of alternative designs
+46,SAS,Software Assurance,Optional KU,Review Secure Design Patterns
+46,SAS,Software Assurance,Optional KU,Evaluate the level of security required for system data.
+46,SAS,Software Assurance,Optional KU,Apply Life of Data - N-order Scope Map
+46,SAS,Software Assurance,Optional KU,Create an Audit Trail
+46,SAS,Software Assurance,Optional KU,Increase Resiliency
+46,SAS,Software Assurance,Optional KU,Design reviews
+46,SAS,Software Assurance,Optional KU,Describe examples of the application of Security Principles: a. Separation (of domains) b. Isolation c. Encapsulation d. Least Privilege e. Simplicity (of design) f. Minimization (of implementation) g. Fail Safe Defaults / Fail Secure h. Modularity i. Layering j. Least Astonishment k. Open Design l. Usability m. Reduce attack surfaces
+47,SRE,Software Reverse Engineering,Optional KU,Malware Analysis
+47,SRE,Software Reverse Engineering,Optional KU,Reverse Engineering Tools & Techniques
+47,SRE,Software Reverse Engineering,Optional KU,Sandboxing
+47,SRE,Software Reverse Engineering,Optional KU,Anti-reverse engineering techniques
+48,SSA,Software Security Analysis,Optional KU,Testing Methodologies
+48,SSA,Software Security Analysis,Optional KU,Source and Binary Code Analysis
+48,SSA,Software Security Analysis,Optional KU,Static and Dynamic Analysis Techniques
+48,SSA,Software Security Analysis,Optional KU,Common analysis tools and methods
+48,SSA,Software Security Analysis,Optional KU,Sandboxing
+49,SCS,Supply Chain Security,Optional KU,Global Development
+49,SCS,Supply Chain Security,Optional KU,Off Shore Production
+49,SCS,Supply Chain Security,Optional KU,Transport and Logistics of IT Components
+49,SCS,Supply Chain Security,Optional KU,Evaluation of 3rd Party Development Practices
+49,SCS,Supply Chain Security,Optional KU,Understanding of the Capabilities and Limits of Software and Hardware Reverse Engineering
+50,SCA,Systems Certification and Accreditation,Optional KU,NIST Risk Management Framework (SP800-37)
+50,SCA,Systems Certification and Accreditation,Optional KU,Roles/Players
+50,SCA,Systems Certification and Accreditation,Optional KU,Components of the C&A Process
+50,SCA,Systems Certification and Accreditation,Optional KU,Certification Boards and Panels
+50,SCA,Systems Certification and Accreditation,Optional KU,DoD Policies and Directives
+51,SPG,Systems Programming,Optional KU,Providing and using Application Programming Interfaces (API's)
+51,SPG,Systems Programming,Optional KU,Different types of systems programs a. Development environments b. Operating Systems c. Utilities d. Networking Functions e. Device Drivers f. Storage Frameworks g. Gaming engines
+51,SPG,Systems Programming,Optional KU,Layered services design
+51,SPG,Systems Programming,Optional KU,Programming to operating systems internal interfaces
+51,SPG,Systems Programming,Optional KU,"Low level programming languages (C, Assembly, etc.)"
+51,SPG,Systems Programming,Optional KU,Resource optimization
+51,SPG,Systems Programming,Optional KU,Resource management
+51,SPG,Systems Programming,Optional KU,Run time overhead minimization
+51,SPG,Systems Programming,Optional KU,Programming direct control of memory access and flow control
+51,SPG,Systems Programming,Optional KU,Managing memory in systems software
+51,SPG,Systems Programming,Optional KU,Security concerns in systems software
+51,SPG,Systems Programming,Optional KU,Monitoring and logging systems software
+51,SPG,Systems Programming,Optional KU,Hardware/software interfaces and interactions
+52,SSE,Systems Security Engineering,Optional KU,Design of testing
+52,SSE,Systems Security Engineering,Optional KU,Testing methodologies
+52,SSE,Systems Security Engineering,Optional KU,Emergent Properties
+52,SSE,Systems Security Engineering,Optional KU,Systems Engineering
+52,SSE,Systems Security Engineering,Optional KU,System Integration
+52,SSE,Systems Security Engineering,Optional KU,Make or Buy Analysis
+52,SSE,Systems Security Engineering,Optional KU,Systems Security Analysis
+52,SSE,Systems Security Engineering,Optional KU,Enterprise system components
+53,VTT,Virtualization Technologies,Optional KU,Networking in virtual environments
+53,VTT,Virtualization Technologies,Optional KU,Storage in virtual environments
+53,VTT,Virtualization Technologies,Optional KU,Virtualization Architectures
+53,VTT,Virtualization Technologies,Optional KU,Virtualization techniques for code extension
+53,VTT,Virtualization Technologies,Optional KU,Memory management in virtual environments
+53,VTT,Virtualization Technologies,Optional KU,Migration and snapshots
+53,VTT,Virtualization Technologies,Optional KU,Virtual management layers
+53,VTT,Virtualization Technologies,Optional KU,Digital Forensics in virtual environments
+53,VTT,Virtualization Technologies,Optional KU,Scheduling of virtual machines
+54,VLA,Vulnerability Analysis,Optional KU,Definition of “vulnerability”
+54,VLA,Vulnerability Analysis,Optional KU,Root causes of vulnerabilities
+54,VLA,Vulnerability Analysis,Optional KU,Vulnerability mapping.
+54,VLA,Vulnerability Analysis,Optional KU,System modeling techniques
+54,VLA,Vulnerability Analysis,Optional KU,Explain when vulnerabilities must be disclosed.
+54,VLA,Vulnerability Analysis,Optional KU,"Taxonomy a. Buffer overflows, privilege escalation, rootkits b. Trojans/backdoors/viruses c. Return oriented programming d. Social Engineering Vulnerabilities e. Administrative Privileges and their effect on vulnerabilities"
+54,VLA,Vulnerability Analysis,Optional KU,Analyze the expected and actual effectiveness of proposed countermeasures
+54,VLA,Vulnerability Analysis,Optional KU,Vulnerability characteristics and classification.
+54,VLA,Vulnerability Analysis,Optional KU,Mitigation strategies
+54,VLA,Vulnerability Analysis,Optional KU,Tools and techniques for identifying vulnerabilities
+55,WAS,Web Application Security,Optional KU,Web Application Technologies a. HTTP Protocol b. Encoding Schemes c. Web Application architectures d. AJAX e. XML and JSON
+55,WAS,Web Application Security,Optional KU,Server-Side Controls
+55,WAS,Web Application Security,Optional KU,Authentication
+55,WAS,Web Application Security,Optional KU,Session Management
+55,WAS,Web Application Security,Optional KU,Access Controls
+55,WAS,Web Application Security,Optional KU,Client-Side Controls
+55,WAS,Web Application Security,Optional KU,Input-Based Vulnerabilities a. SQL Injection b. Blind SQL Injection c. Cross-Site Scripting d. Cross-site request forgery
+55,WAS,Web Application Security,Optional KU,Function-Specific Input Vulnerabilities
+55,WAS,Web Application Security,Optional KU,Attacking Application Logic
+55,WAS,Web Application Security,Optional KU,Recent Attack Trends
+55,WAS,Web Application Security,Optional KU,Shared Hosting Vulnerabilities
+55,WAS,Web Application Security,Optional KU,Application Server Vulnerabilities
+57,WSN,Wireless Sensor Networks,Optional KU,Managed vs. Ad-hoc network participation
+57,WSN,Wireless Sensor Networks,Optional KU,Cross Layer Optimization
+57,WSN,Wireless Sensor Networks,Optional KU,Network Architecture a. Mesh b. Structured c. Hierarchical
+57,WSN,Wireless Sensor Networks,Optional KU,MAC approaches a. Coordination b. Self-organization
+57,WSN,Wireless Sensor Networks,Optional KU,Routing Protocols
+57,WSN,Wireless Sensor Networks,Optional KU,Membership Management a. Authentication Hash Tables
+57,WSN,Wireless Sensor Networks,Optional KU,Security Issues a. Data Integrity b. Data Poisoning c. Resource Starvation
+57,WSN,Wireless Sensor Networks,Optional KU,Encryption.
+57,WSN,Wireless Sensor Networks,Optional KU,Energy Efficiency a. Power budget b. Energy Optimization c. Energy Harvesting
+57,WSN,Wireless Sensor Networks,Optional KU,Radio Frequencies a. RF selection and management b. Interference
+58,CSF,Cybersecurity Foundations,Foundational KU,"Threats and Adversaries (threat actors, malware, natural phenomena)"
+58,CSF,Cybersecurity Foundations,Foundational KU,Vulnerabilities and Risk management (include backups and recovery)
+58,CSF,Cybersecurity Foundations,Foundational KU,Common Attacks
+58,CSF,Cybersecurity Foundations,Foundational KU,Basic Risk Assessment
+58,CSF,Cybersecurity Foundations,Foundational KU,Security Life-Cycle
+58,CSF,Cybersecurity Foundations,Foundational KU,Applications of Cryptography and PKI
+58,CSF,Cybersecurity Foundations,Foundational KU,"Data Security (in transmission, at rest, in processing)"
+58,CSF,Cybersecurity Foundations,Foundational KU,"Security Models (Bell-La Padula, Biba, Clark Wilson, Brewer Nash, Multi-level security)"
+58,CSF,Cybersecurity Foundations,Foundational KU,"Access Control Models (MAC, DAC, RBAC, Lattice)"
+58,CSF,Cybersecurity Foundations,Foundational KU,"Confidentiality, Integrity, Availability, Access, Authentication, Authorization, Non-Repudiation, Privacy"
+58,CSF,Cybersecurity Foundations,Foundational KU,Session Management
+58,CSF,Cybersecurity Foundations,Foundational KU,Exception Management
+58,CSF,Cybersecurity Foundations,Foundational KU,"Security Mechanisms (e.g., Identification/Authentication, Audit)"
+58,CSF,Cybersecurity Foundations,Foundational KU,Malicious activity detection / forms of attack
+58,CSF,Cybersecurity Foundations,Foundational KU,Appropriate Countermeasures
+58,CSF,Cybersecurity Foundations,Foundational KU,Legal issues
+58,CSF,Cybersecurity Foundations,Foundational KU,Ethics (Ethics associated with cybersecurity profession)
+59,CSP,Cybersecurity Principles,Foundational KU,Separation (of domains/duties)
+59,CSP,Cybersecurity Principles,Foundational KU,Isolation
+59,CSP,Cybersecurity Principles,Foundational KU,Encapsulation
+59,CSP,Cybersecurity Principles,Foundational KU,Modularity
+59,CSP,Cybersecurity Principles,Foundational KU,Simplicity of design (Economy of Mechanism)
+59,CSP,Cybersecurity Principles,Foundational KU,Minimization of implementation (Least Common Mechanism)
+59,CSP,Cybersecurity Principles,Foundational KU,Open Design
+59,CSP,Cybersecurity Principles,Foundational KU,Complete Mediation
+59,CSP,Cybersecurity Principles,Foundational KU,Layering (Defense in depth)
+59,CSP,Cybersecurity Principles,Foundational KU,Least Privilege
+59,CSP,Cybersecurity Principles,Foundational KU,Fail Safe Defaults / Fail Secure
+59,CSP,Cybersecurity Principles,Foundational KU,Least Astonishment (Psychological Acceptability)
+59,CSP,Cybersecurity Principles,Foundational KU,Minimize Trust Surface (Reluctance to trust)
+59,CSP,Cybersecurity Principles,Foundational KU,Usability
+59,CSP,Cybersecurity Principles,Foundational KU,Trust relationships
+60,ISC,IT Systems Components,Foundational KU,"Endpoint protection a. Workstations, servers, appliances, mobile devices, peripheral devices (Printers, scanners, external storage)"
+60,ISC,IT Systems Components,Foundational KU,Storage Devices
+60,ISC,IT Systems Components,Foundational KU,System Architectures a. Virtualization / Containers b. Cloud
+60,ISC,IT Systems Components,Foundational KU,"Alternative environments (SCADA, real time systems, critical infrastructures)"
+60,ISC,IT Systems Components,Foundational KU,"Networks (Internet, LANs, wireless)"
+60,ISC,IT Systems Components,Foundational KU,Network mapping (enumeration and identification of network components)
+60,ISC,IT Systems Components,Foundational KU,"Network Security Components (Data Loss Prevention, VPNs / Firewalls)"
+60,ISC,IT Systems Components,Foundational KU,"Intrusion Detection and Prevention Systems, Incident Response"
+60,ISC,IT Systems Components,Foundational KU,Managed Services
+60,ISC,IT Systems Components,Foundational KU,"Software Security (secure coding principles, software issues by type)"
+60,ISC,IT Systems Components,Foundational KU,Configuration Management
+60,ISC,IT Systems Components,Foundational KU,Patching a. OS and Application Updates
+60,ISC,IT Systems Components,Foundational KU,Vulnerability Scanning (core) a. Vulnerability Windows (0-day to patch availability)
+60,ISC,IT Systems Components,Foundational KU,People and security (social engineering)
+60,ISC,IT Systems Components,Foundational KU,Physical and environmental security concerns
+60,ISC,IT Systems Components,Foundational KU,Internet Of Things (IOT)
+60,ISC,IT Systems Components,Foundational KU,"Cyber Defense Partnerships (Federal, State, Local, Industry)"
+61,BCY,Basic Cryptography,Technical Core KU,"Common cryptographic uses a. Security Functions (data protection, data integrity, authentication, non-repudiation) b. Block vs. stream data c. Digital Signatures (Authentication)"
+61,BCY,Basic Cryptography,Technical Core KU,"Hash Functions (MD4, MD5, SHA-1, SHA-2, SHA-3) a. Integrity checking b. For protecting authentication data c. Collision resistance"
+61,BCY,Basic Cryptography,Technical Core KU,"Symmetric Cryptography (DES, Twofish)"
+61,BCY,Basic Cryptography,Technical Core KU,"Public Key Cryptography (Diffie-Hellman, RSA, ECC, ElGamal, DSA) a. Public Key Infrastructure b. Certificates c. Key Management (creation, exchange/distribution)"
+61,BCY,Basic Cryptography,Technical Core KU,Cryptography in practice a. Common Cryptographic Protocols b. DES -> AES (evolution from DES to AES) c. Cryptographic Modes (and their strengths and weaknesses) d. Cryptographic standards (FIPS 140 series)
+61,BCY,Basic Cryptography,Technical Core KU,"Cryptographic failures a. Types of Attacks (brute force, chosen plaintext, known plaintext, differential and linear cryptanalysis, etc.) b. Implementation failures"
+62,BNW,Basic Networking,Technical Core KU,Networking models (OSI and IP)
+62,BNW,Basic Networking,Technical Core KU,"Network media (wired, optical, and wireless)"
+62,BNW,Basic Networking,Technical Core KU,"Network Architectures and topologies (PAN, LAN/WAN, DMZ, Enclaves, VLAN, NAT, subnetting, supernetting)"
+62,BNW,Basic Networking,Technical Core KU,"Common Network Devices and their role in the network. (Routers, Switches, Hosts, VPNs, Firewalls)"
+62,BNW,Basic Networking,Technical Core KU,"Network Protocols introduction (IP, TCP, UDP, ICMP)"
+62,BNW,Basic Networking,Technical Core KU,"Network Services and protocols introduction (DNS, NTP, VLAN, etc.)."
+62,BNW,Basic Networking,Technical Core KU,"Network Applications and protocols introduction (SMTP, HTTP, VoIP, SSH, etc.)."
+62,BNW,Basic Networking,Technical Core KU,Use of basic network administration tools.
+62,BNW,Basic Networking,Technical Core KU,Overview of Network Security Issues
+63,BSP,Basic Scripting and Programming,Technical Core KU,Understand basic data structures and algorithms
+63,BSP,Basic Scripting and Programming,Technical Core KU,Be familiar with the concept and basic implementation of regular expressions.
+63,BSP,Basic Scripting and Programming,Technical Core KU,Basic Boolean logic/operations a. AND / OR / XOR / NOT
+63,BSP,Basic Scripting and Programming,Technical Core KU,"Scripting on both Windows and Linux a. Language (e.g. PERL, Python, BASH, JAVA, VB Scripting, Powershell)"
+63,BSP,Basic Scripting and Programming,Technical Core KU,"Implement basic security concepts a. Permissions, bounds checking, input validation, type checking and parameter validation"
+63,BSP,Basic Scripting and Programming,Technical Core KU,"Properly apply basic programming constructs and concepts including: a. Variables and types (int, float, char, etc.) b. Strings, arrays, structures c. Sequential and parallel execution d. Assignments (:=, =, ++, --, etc.) e. Decisions and branching (if, if ... else, elseif, switch, case, etc.) f. Loops (for, while, repeat, etc.) g. Functions, procedures, and calls h. Debugging techniques"
+64,NDF,Network Defense,Technical Core KU,Network security policies as they relate to network defense/security: a. Network Access Control (internal and external) b. Network Policy Development and Enforcement
+64,NDF,Network Defense,Technical Core KU,Network defense/monitoring tools: a. Implementing Firewalls b. DMZs / Proxy Servers c. VPNs d. Honeypots and Honeynets e. Implementing IDS/IPS
+64,NDF,Network Defense,Technical Core KU,Network Operations a. Network Security Monitoring b. Network Traffic Analysis
+64,NDF,Network Defense,Technical Core KU,"Outline concepts of network defense, such as: a. Defense in Depth b. Network attacks c. Network Hardening d. Minimizing Exposure (Attack Surface and Vectors)"
+65,OSC,Operating Systems Concepts,Technical Core KU,Privileged and non-privileged states
+65,OSC,Operating Systems Concepts,Technical Core KU,Application processes and threads
+65,OSC,Operating Systems Concepts,Technical Core KU,"Memory (real, virtual, and management)"
+65,OSC,Operating Systems Concepts,Technical Core KU,Files systems
+65,OSC,Operating Systems Concepts,Technical Core KU,Virtualization / hypervisors
+65,OSC,Operating Systems Concepts,Technical Core KU,Creation and operation of virtualization technology
+65,OSC,Operating Systems Concepts,Technical Core KU,Fundamental security design principles as applied to an OS
+65,OSC,Operating Systems Concepts,Technical Core KU,Access controls (models and mechanisms)
+65,OSC,Operating Systems Concepts,Technical Core KU,"Domain separation, process isolation, resource encapsulation, least privilege"
+66,CTH,Cyber Threats,Non-Technical Core KU,Motivations and Techniques
+66,CTH,Cyber Threats,Non-Technical Core KU,"The Adversary Model (resources, capabilities, intent, motivation, risk aversion, access)"
+66,CTH,Cyber Threats,Non-Technical Core KU,Types of Attacks (and vulnerabilities that enable them) Password guessing / cracking b. Backdoors / trojans / viruses / wireless attacks c. Sniffing / spoofing / session hijacking d. Denial of service / distributed e. DOS / BOTs f. MAC spoofing / web app attacks / 0-day exploits g. Advanced Persistent Threat (APT)
+66,CTH,Cyber Threats,Non-Technical Core KU,Events that indicate an attack is/has happened
+66,CTH,Cyber Threats,Non-Technical Core KU,Attack Timing (within x minutes of being attached to the net)
+66,CTH,Cyber Threats,Non-Technical Core KU,"Attack surfaces / vectors, and trees"
+66,CTH,Cyber Threats,Non-Technical Core KU,Covert Channels
+66,CTH,Cyber Threats,Non-Technical Core KU,Social Engineering
+66,CTH,Cyber Threats,Non-Technical Core KU,Insider problem
+66,CTH,Cyber Threats,Non-Technical Core KU,"Threat Information Sources (e.g., CERT)"
+66,CTH,Cyber Threats,Non-Technical Core KU,Legal Issues associated with cyber threats
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Broad coverage of the cybersecurity Common Body of Knowledge (CBK) and how it affects planning and management.
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,"Differentiate and provided examples of Operational, Tactical, and Strategic Planning and Management"
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Examine C-Level Functions which impact cybersecurity.
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Making cybersecurity a strategic essential (part of core organizational strategy)
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Identify requirements and create plans for Business Continuity / Disaster Recovery
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Develop processes and procedures for incident response
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Planning for protection of intellectual property
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Managing the implementation of access controls
+67,CPM,Cybersecurity Planning and Management,Non-Technical Core KU,Managing patch and change control
+68,PLE,"Policy, Legal, Ethics, and Compliance",Non-Technical Core KU,Payment Card Industry Data Security Standard (PCI DSS)
+68,PLE,"Policy, Legal, Ethics, and Compliance",Non-Technical Core KU,BYOD issues
+68,PLE,"Policy, Legal, Ethics, and Compliance",Non-Technical Core KU,"Federal Laws and Authorities a. Computer Security Act b. Sarbanes – Oxley c. Gramm – Leach – Bliley d. Privacy (COPPA) HIPAA / FERPA e. USA Patriot Act f. Americans with Disabilities Act, Section 508 g. Other Federal laws and regulations"
+68,PLE,"Policy, Legal, Ethics, and Compliance",Non-Technical Core KU,"State, US and international standards / jurisdictions"
+69,SPM,Security Program Management,Non-Technical Core KU,Measuring the effectiveness of a security program (metrics).
+69,SPM,Security Program Management,Non-Technical Core KU,Security program addresses: a. Physical Security b. Personnel Security c. System and Data Identification d. System security plans. e. Configuration and Patch management f. System Documentation g. Incident Response Program h. Disaster Recovery Program. i. Certification and Accreditation
+69,SPM,Security Program Management,Non-Technical Core KU,Security Policies. a. Compliance with Applicable Laws and Regulations b. Security best practices and frameworks.
+69,SPM,Security Program Management,Non-Technical Core KU,Roles and Responsibilities of the Security Organization
+69,SPM,Security Program Management,Non-Technical Core KU,Goals and objectives of a security program.
+69,SPM,Security Program Management,Non-Technical Core KU,Program Monitoring and Control
+69,SPM,Security Program Management,Non-Technical Core KU,"Security Awareness, Training and Education"
+69,SPM,Security Program Management,Non-Technical Core KU,Security Baselining
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Assessment/Analysis Methodologies
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Measurement and Evaluation Methodologies
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Management Models
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Management Processes
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Mitigation Economics
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Risk Transference/Acceptance/Mitigation
+70,SRA,Security Risk Analysis,Non-Technical Core KU,Communication of Risk
