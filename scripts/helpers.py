@@ -1,5 +1,28 @@
 import re
 import pickle
+import pandas as pd
+import glob
+import ast
+from nltk.corpus import stopwords
+
+
+def remove_stopwords(text_list):
+    """
+    remove_stopwords
+
+    params:
+    text_list: list of raw texts to apply the function too
+
+    returns:
+    non_stop_text: a list of text with stop words removed
+    """
+    cachedStopWords = stopwords.words("english")
+    non_stop_text = []
+    for text in text_list:
+        new_text = ' '.join([word for word in text.split() if word not in cachedStopWords]).strip()
+        non_stop_text.append(new_text)
+    return non_stop_text
+
 
 def cleanup_text(text_list):
     """
@@ -66,3 +89,43 @@ def read_embeddings(file):
     with open(file, 'rb') as pkl:
         doc_embedding = pickle.load(pkl)
     return doc_embedding
+
+
+def rescore_group( dfs=[], folder=None, new_file=None):
+    """
+    rescore_group
+    only use dfs OR folder not both
+    params: 
+    df: list of dataframes of the data category
+    folder: location of files (will use all files in folder)
+    new_file: name and path for new file results if you want to save it
+
+    returns:
+    new_df: new df with re-scored metrics/scores
+    """
+    df_all = pd.DataFrame()
+    if folder and len(dfs) <1:
+        for file in glob.glob(folder+'/*.csv'):
+            df_temp = pd.read_csv(file,converters={'matches':ast.literal_eval, 'similar': ast.literal_eval, 
+                                               'missing': ast.literal_eval})
+            df_all = pd.concat([df_all, df_temp], sort=False)
+    if len(dfs) >0 and not folder:
+        dfs.append(df_all)
+        df_all = pd.concat(dfs, sort=False)
+
+    df_group = df_all.groupby('ksa', sort=False).agg({'matches': 'sum', 'similar': 'sum', 'missing':'sum'}).reset_index()
+
+    sent_total = len(df_group['similar'][0]) +len(df_group['matches'][0]) +len(df_group['missing'][0])
+
+    df_group['matched_score'] = df_group.apply(lambda x: len(x['matches'])/sent_total, axis=1)
+    df_group['similar_score'] = df_group.apply(lambda x: len(x['similar'])/sent_total, axis=1)
+    df_group['missing_score'] = df_group.apply(lambda x: len(x['missing'])/sent_total, axis=1)
+    if new_file:
+        df_group.to_csv(new_file, index=False)
+
+    print('Successfully re-scored all data!')
+    return df_group
+    
+
+    
+
