@@ -1,0 +1,148 @@
+Name_of_certification,Learning_objectives,Who_it_is_suitable_for,Price,Prerequisites,%_of_people_holding_certificate
+(ISC)2 Certified Information Systems Security Professional (CISSP) (Leadership & operations),"• Security and Risk Management 
+• Asset Security 
+• Security Architecture and Engineering 
+• Communication and Network Security 
+• Identity and Access Management (IAM) 
+• Security Assessment and Testing 
+• Security Operations 
+• Software Development Security","* Chief Information Security Officer
+* Chief Information Officer
+* Director of Security
+* IT Director/Manager
+* Security Systems Engineer
+* Security Analyst
+* Security Manager
+* Security Auditor
+* Security Architect
+* Security Consultant
+* Network Architect",$699 ,"The CISSP is ideal for experienced security practitioners, managers and executives interested in proving their knowledge across a wide array of security practices and principles",38%
+CISSP-ISSAP (Architecture),"• Architect for Governance, Compliance, and Risk Management 
+• Security Architecture Modelling 
+• Infrastructure Security 
+• Identity and Access Management Architecture 
+• Architect for Application Security 
+• Security Operations Architecture","* System architect
+* Chief technology officer
+* System and network designer
+* Business analyst
+* Chief security officer",$599 ,Candidates must be a CISSP in good standing and have two years cumulative paid work experience in one or more of the six domains of the CISSP-ISSAP CBK,38%
+CISSP-ISSEP (Engineering),"* Systems Security Engineering Foundations
+* Risk Management
+* Security Planning and Design
+* Systems Implementation, Verification and Validation
+* Secure Operations, Change Management and Disposal","* Senior systems engineer
+* Information assurance systems engineer
+* Information assurance officer
+* Information assurance analyst
+* Senior security analyst",$599 ,"Candidates must be a CISSP in good standing and have two years cumulative, paid work experience in one or more of the five domains of the CISSP-ISSEP CBK.",38%
+CISSP-ISSMP (Management),"* Leadership and Business Management
+* Systems Lifecycle Management
+* Risk Management
+* Threat Intelligence and Incident Management
+* Contingency Management
+* Law, Ethics, and Security Compliance Management","* Chief information officer
+* Chief information security officer
+* Chief technology officer
+* Senior security executive",$599 ,"Candidates must be a CISSP in good standing and have two years cumulative, paid work experience in one or more of the six domains of the CISSP-ISSMP CBK",38%
+ISO 27001 Lead Implementer ,"* Fundamental principles and concepts of an information security management system (ISMS)
+* Information security management system (ISMS)
+* Planning an ISMS implementation based on ISO/IEC 27001
+* Implementing an ISMS based on ISO/IEC 27001
+* Monitoring and measurement of an ISMS based on ISO/IEC 27001
+* Continual improvement of an ISMS based on ISO/IEC 27001 
+* Preparing for an ISMS certification audit","* Project managers and consultants involved in and concerned with the implementation of an ISMS 
+* Expert advisors seeking to master the implementation of an ISMS
+* Individuals responsible for ensuring conformity to information security requirements within an organization
+* Members of an ISMS implementation team","$1,000 ",The main requirement for participating in this training course is having a general knowledge of the ISMS concepts and ISO/IEC 27001. Five years: Two years of work experience in Information Security Management,13%
+CompTIA Security+ (SYO-501),"* Threats, Attacks and Vulnerabilities 
+* Technologies and Tools 
+* Architecture and Design  
+* Identity and Access Management  
+* Risk Management 
+* Cryptography and PKI","• Security Administrator
+• Helpdesk Manager / Analyst
+• Security Engineer / Analyst
+• IT Auditors
+• Systems Administrator
+• Network / Cloud Engineer
+• DevOps / Software Developer
+• IT Project Manager",$381 ,CompTIA Network+ and two years of experience in IT administration with a security focus,11%
+CompTIA Security+ (SYO-601),"• Attacks, Threats, and Vulnerabilities 
+• Architecture and Design 
+• Implementation 
+• Operations and Incident Response 
+• Governance, Risk, and Compliance","• Security Administrator
+• Helpdesk Manager / Analyst
+• Security Engineer / Analyst
+• IT Auditors
+• Systems Administrator
+• Network / Cloud Engineer
+• DevOps / Software Developer
+• IT Project Manager",$381 ,CompTIA Network+ and two years of experience in IT administration with a security focus,11%
+ITIL Foundation (ITILF) ,"* A holistic approach to the facilitation of co-creation of value with customers and other stakeholders in the form of products and services
+* The guiding principles of ITIL 4
+* The four dimensions of Service Management
+* Key concepts from Lean, Agile, DevOps, and why these are important to deliver business value
+* How ITIL practices described in ITIL 4 will maintain the value and importance provided by the current ITIL processes, whilst at the same time expand to be integrated to different areas of service management and IT, from demand to value.","ITIL 4 Foundation is for anyone who needs to understand the key concepts of IT and digital service delivery, and who is interested in helping their organization embrace the new service management culture. It is for professionals at the start of their ITIL 4 journey or people looking to update their existing ITIL knowledge.",$495 ,Familiarity with IT terminology and IT-related work experience are recommended.,11%
+Cisco Certified Network Associate Security (CCNA Security)," • Describe the security threats facing modern network infrastructures 
+• Secure network device access 
+• Implement AAA on network devices 
+• Mitigate threats to networks using ACLs 
+• Implement secure network management and reporting 
+• Mitigate common Layer 2 attacks 
+• Implement the Cisco IOS firewall feature set 
+• Implement an ASA 
+• Implement the Cisco IOS IPS feature set 
+• Implement site-to-site IPSec VPNs 
+• Administer effective security policies","* Network security specialists
+* Security admins
+* Security engineers",$465 ,"Candidate must hold a valid CCENT, CCNA Routing & Switching OR CCIE certification. ",10%
+Cisco Certified Network Professional Security (CCNP Security),"* Recognizing and managing common security threats and countermeasures
+* Selecting and configuring appropriate network infrastructure security methods
+* Managing advanced security configurations in the cloud
+* Relying on web security features to provide content security
+* Configuring endpoint-based security
+* Deploying network telemetry and network access solutions","* Security engineers
+* Network engineers, designers, administrators, and managers
+* Systems engineers
+* Consulting systems engineers
+* Technical solutions architects
+* Cisco integrators and partners","$1,200 ","There are no formal prerequisites for CCNP Security, but you should have a good understanding of the exam topics before taking the exam. CCNP candidates often also have three to five years of experience implementing security solutions.",8%
+Microsoft Certified Azure Fundamentals (MCAF) ,"* Describe cloud concepts
+* Describe core Azure services
+* Describe core solutions and management tools on Azure
+* Describe general security and network security features
+* Describe identity, governance, privacy, and compliance features
+* Describe Azure cost management and Service Level Agreements",Any IT personnel ,$99 ,"* You should be familiar with basic computing concepts and terminology.
+* An understanding of cloud computing is helpful, but isn't necessary.",7%
+(ISC)2 Certified Cloud Security Professional (CCSP) ,"* Cloud Concepts, Architecture and Design
+* Cloud Data Security
+*  Cloud Platform & Infrastructure Security
+* Cloud Application Security
+* Cloud Security Operations
+* Legal, Risk and Compliance","* Cloud Architect
+* Cloud Engineer
+* Cloud Consultant
+* Cloud Administrator
+* Cloud Security Analyst
+* Cloud Specialist
+* Auditor of Cloud Computing Services
+* Professional Cloud Developer",$599 ,"Candidate must have at least five years of cumulative, paid work experience in information technology, of which three years must be in information security, and one year in one or more of the six domains of the (ISC)² CCSP Common Body of Knowledge (CBK).",7%
+Microsoft 365 Fundamentals (M365CF),"* Describe cloud concepts 
+* Describe core Microsoft 365 services and concepts 
+* Explain security, compliance, privacy, and trust in Microsoft 365 
+* Describe Microsoft 365 pricing and support ",Any IT personnel ,$99 ,Basic understanding of cloud computing.,7%
+Amazon Web Services Certified Cloud Practitioner (AWS CCP),"* Summarize the working definition of AWS
+* Differentiate between on-premises, hybrid-cloud, and all-in cloud models
+* Describe the basic global infrastructure of the AWS Cloud
+* Explain the six main benefits of the AWS Cloud
+* Describe and provide an example of the core AWS services, including compute, network, database, and storage services
+* Identify an appropriate solution using AWS Cloud services for various use cases
+* Describe the AWS Well-Architected Framework
+* Explain the AWS Shared Responsibility Model
+* Describe the core security services within the AWS Cloud
+* Describe the basics of AWS Cloud migration
+* Articulate the financial benefits of the AWS Cloud for your organization’s cost management
+* Define the core billing, account management, and pricing models
+* Explain how to use pricing tools to make cost-effective choices for AWS services",Any IT personnel ,$100 ,Basic understanding of cloud computing.,7%
