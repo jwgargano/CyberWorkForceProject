@@ -127,5 +127,26 @@ def rescore_group( dfs=[], folder=None, new_file=None):
     return df_group
     
 
-    
+def reduce_df_column(df, tgt_column, tgt_key):
+    """
+    reduce_df_column
+    reduce the matches, similar, missing to just the index number
+    deletes the old column
+    params: 
+    df: dataframe in question
+    tgt_column: column name you want to reduce
+    tgt_key: name of the idx you want to reduce by
 
+    example: 
+    final_df = reduce_df_column(final_df, 'matches', 'job_idx')
+    final_df = reduce_df_column(final_df, 'similar', 'job_idx')
+    final_df = reduce_df_column(final_df, 'missing', 'job_idx')
+
+    returns:
+    df: df with new column with a list of the job idxs only. Deletes old column
+    """
+
+    new_col = column+'_'+'idx'
+    df[new_col] = df.apply(lambda x: [i[tgt_key] for i in x[column]], axis=1)
+    df.drop(column, axis=1, inplace=True)
+    return df
