@@ -127,7 +127,7 @@ def rescore_group( dfs=[], folder=None, new_file=None):
     return df_group
     
 
-def reduce_df_column(df, tgt_column, tgt_key):
+def reduce_df_column(df,column, tgt_key):
     """
     reduce_df_column
     reduce the matches, similar, missing to just the index number
