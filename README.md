@@ -6,12 +6,21 @@ Team Github for DAEN 690-DL1 Cyber Workforce Project (Team Mo-Data-Mo-Problems)
 This project aims to determine if the current cyber security knowledge, skills, abilities (KSAs) set by orgnizations like the National Institute of Standards and Technology (NIST) and the National Initiative for Cybersecurity Education (NICE) match the current public sector job market, private sector job market, and educational certification programs. To determine the matching, similar, or missing KSAs, our team utilized natural language processing techniques with BERT to calculate the cosine similarity between the KSAs and sentences in the data corpuses. In addition, our team used BERTopic to develop a topic model for each dataset and determine if the KSAs have any matching or similar topics.
 
 
+## Table of Contents
+- [Project Description](#project-description)
+- [Getting Started](#getting-started)
+- [Cosine Similarity Approach](#cosine-similarity-approach) 
+- [BERTopic Modelling Approach](#bertopic-modelling-approach) 
+- [Team Members](#team-members) 
+
+
 ## Getting Started
 To install the required packages and pre-trained models, install the requirements.txt file in the scripts folder.
 ```
 pip install -r scripts/requirements.txt
 ```
-### Cosine Similarity
+
+### Cosine Similarity Approach
 To calculate the cosine similarity for a given dataset and to determine the matching, similar, and missing KSAs, use the bert_similarity_template jupyter notebook located in the scripts folder. The following sections below are high level steps of the process, the full process can be found within the notebook files.
 
 #### Change the parameters to meet your local filepath or the filepath on the github
@@ -142,7 +151,7 @@ final_df.to_csv(output_file, index=False)
 ```
 
 
-### BERTopic Modelling
+### BERTopic Modelling Approach
 To calculate topics for a given dataset and to determine the matching, similar, and missing KSAs, use the bertopic_template jupyter notebook located in the scripts folder. The following sections below are high level steps of the process, the full process can be found within the notebook files.
 
 #### Change the parameters to meet your local filepath or the filepath on the github
@@ -259,7 +268,10 @@ topic_plot.write_html("../data/results/nlx/topic_match/inter_topic_allv2.html")
 ```
 
 
-
-
 ## Team Members
-Waseem Ashraf, Joseph Gargano, Laura Gibson, Austin Hembree, Shirinithi Thiruppathi, and Joseph Ware
+- Waseem Ashraf
+- Joseph Gargano
+- Laura Gibson
+- Austin Hembree
+- Shirinithi Thiruppathi
+- Joseph Ware
