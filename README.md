@@ -1,9 +1,9 @@
-# CyberWorkForceProject
+# Cyber Work Force Project
 Team Github for DAEN 690-DL1 Cyber Workforce Project (Team Mo-Data-Mo-Problems)
 
 
 ## Project Description
-This project aims to determine if the current cyber security knowledge, skills, abilities (KSAs) set by orgnizations like the National Institute of Standards and Technology (NIST) and the National Initiative for Cybersecurity Education (NICE) match the current public sector job market, private sector job market, and educational certification programs. To determine the matching, similar, or missing KSAs, our team utilized natural language processing techniques with BERT to calculate the cosine similarity between the KSAs and sentences in the data corpuses. In addition, our team used BERTopic to develop a topic model for each dataset and determine if the KSAs have any matching or similar topics.
+This project aims to determine if the current cyber security knowledge, skills, abilities (KSAs) set by organizations like the National Institute of Standards and Technology (NIST) and the National Initiative for Cybersecurity Education (NICE) match the current public sector job market, private sector job market, and educational certification programs. To determine the matching, similar, or missing KSAs, our team utilized natural language processing techniques with BERT to calculate the cosine similarity between the KSAs and sentences in the data corpuses. In addition, our team used BERTopic to develop a topic model for each dataset and determine if the KSAs have any matching or similar topics.
 
 
 ## Table of Contents
