@@ -182,7 +182,7 @@ jobs = helpers.cleanup_text(jobs)
 ksas = helpers.cleanup_text(ksas)
 ```
 
-#### Initilize the BERTopic model, embed the sentences using a bi-gram approach
+#### Initialize the BERTopic model, embed the sentences using a bi-gram approach
 ```
 # initalize model, make bigram, fit to job sents
 topic_model = BERTopic(embedding_model=model, n_gram_range=(1, 2))
